@@ -1,0 +1,19 @@
+.ContResumen{
+    display: flex;
+    align-items: center;
+    place-content:center;
+    height: 700px;
+    background-image:url('./imagenes/eldiablo.png');
+    background-size: cover; /* Ajusta el tamaño de la imagen */
+    background-position: center; /* Centra la imagen */
+}
+.Resumen{
+    padding: 40px;
+    max-width: 1000px;
+    color: azure;
+    background-color: rgba(0, 0, 0, 0.4);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.9);
+    line-height: 27px;
+    text-align: justify;
+}
